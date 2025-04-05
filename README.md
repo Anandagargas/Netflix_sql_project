@@ -14,21 +14,20 @@ Dataset Link: [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-s
 ## Schema
 
 DROP TABLE IF EXISTS netflix;
-Create Table netflix
+CREATE TABLE netflix
 (
-	show_id VARCHAR(6),
-	type VARCHAR(10),
-	title VARCHAR(150),
-	director VARCHAR(208),
-	casts VARCHAR(1000),
-	country VARCHAR(150),
-	date_added VARCHAR(50),
-	releae_year INT,
-	rating VARCHAR(10),
-	duration VARCHAR(15),
-	listen_in VARCHAR(100),
-	description VARCHAR(250)
-	
+    show_id      VARCHAR(5),
+    type         VARCHAR(10),
+    title        VARCHAR(250),
+    director     VARCHAR(550),
+    casts        VARCHAR(1050),
+    country      VARCHAR(550),
+    date_added   VARCHAR(55),
+    release_year INT,
+    rating       VARCHAR(15),
+    duration     VARCHAR(15),
+    listed_in    VARCHAR(250),
+    description  VARCHAR(550)
 );
 
 Select * from netflix
