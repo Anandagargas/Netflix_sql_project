@@ -1,1 +1,1 @@
-# Netflix_sql_project
+# Netflix Movies And TV Shows Dataset
